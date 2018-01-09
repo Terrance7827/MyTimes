@@ -1,0 +1,67 @@
+header{
+  display: flex;
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+}
+nav{
+  display: inline-block;
+
+}
+div{
+
+}
+h2{
+  font-family: Georgia;
+}
+
+.container{
+  display: flex;
+}
+.column{
+  display: flex;
+
+}
+.column p{
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
+}
+.image p{
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+}
+.large{
+  width: 630px;
+}
+
+.medium{
+ width: 300px;
+}
+
+.small{
+ width: 240px;
+ flex-direction: column;
+}
+
+.logo{
+  color: MediumAquamarine;
+}
+
+#main-story{
+  background-image: url('img-story-main.png');
+}
+#main-story p{
+  font-size: 48px;
+}
+#story1{
+  background-image: url('img-story-1.png');
+}
+#story2{
+  background-image: url('img-story-2.png');
+}
+#story3{
+  background-image: url('img-story-3.png');
+}
