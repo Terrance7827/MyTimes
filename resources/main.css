@@ -35,6 +35,28 @@ h3{
   font-weight: bold;
   text-align: center;
 }
+footer{
+  display: flex;
+  background-color: MediumAquamarine;
+  margin: auto;
+  font-family: Verdana;
+  font-size: 12px;
+  height: 125px;
+  width: 100%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.footer-title{
+  font-family: Georgia;
+  font-size: 16px;
+  color: white;
+  margin-right: 20px;
+  font-weight: bold;
+}
+.copyright{
+  display: block;
+}
 .container{
   display: flex;
   padding-top: 116px;
